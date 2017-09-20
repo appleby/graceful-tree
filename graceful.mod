@@ -129,7 +129,7 @@ check 0 = card(N symdiff setof{v in V} vl[v]);
 check 0 = card(M symdiff setof{(u,v) in E} el[u,v]);
 /* every edge label is assigned to one edge */
 
-check 0 = card(M symdiff setof{(u,v) in E} abs(vl[u] - vl[v]));
+check {(u,v) in E} el[u,v] = abs(vl[u] - vl[v]);
 /* every edge label for every edge (u,v) == abs(vl[u] - vl[v]) */
 
 printf "vertices:\n";
