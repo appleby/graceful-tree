@@ -1,0 +1,4 @@
+data;
+set V := a b c d e f g;
+set E := a b, a d, a g, b c, b e, e f;
+end;
