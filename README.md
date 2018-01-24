@@ -6,6 +6,8 @@ I first came across this as problem P92 of the [99 Lisp Problems] where it's cal
 
 This is my first attempt at writing a MathProg model (or any kind of linear programming model, for that matter), so if you're looking for decent examples of idiomatic MathProg, you might want to check out the `examples` directory in the [GLPK] distribution. Or check out the examples included in the nifty [online-optimizer].
 
+**Update:** As of GLPK v4.64, the file `graceful.mod` is now included in the `examples` directory in the [GLPK source distribution].
+
 # Problem statement
 
 Copy/pasted from the [99 Lisp Problems].
@@ -179,6 +181,7 @@ end;
 ```
 
 [GLPK]: https://www.gnu.org/software/glpk/
+[GLPK source distribution]: https://ftp.gnu.org/gnu/glpk/
 [GLPK.js]: http://hgourvest.github.io/glpk.js/
 [online-optimizer]: https://online-optimizer.appspot.com/
 [99 Lisp Problems]: http://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nine_Lisp_Problems.html
